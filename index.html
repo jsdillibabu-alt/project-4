@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in | StudyBuddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="split">
+    <aside class="brand">
+      <h1>StudyBuddy</h1>
+      <p>Plan your week, track your assignments and never miss a deadline.</p>
+    </aside>
+
+    <main class="panel">
+      <section id="login" class="box">
+        <h2>Welcome back</h2>
+        <form action="#" method="post">
+          <label for="le">Email address</label>
+          <input id="le" type="email" required>
+          <label for="lp">Password</label>
+          <input id="lp" type="password" required>
+          <label class="check"><input type="checkbox"> Keep me signed in</label>
+          <button type="submit">Sign in</button>
+        </form>
+        <p class="switch">New here? <a href="#signup">Create an account</a></p>
+      </section>
+
+      <section id="signup" class="box">
+        <h2>Create your account</h2>
+        <form action="#" method="post">
+          <label for="sn">Full name</label>
+          <input id="sn" type="text" required>
+          <label for="se">Email address</label>
+          <input id="se" type="email" required>
+          <label for="sp">Password (8+ characters)</label>
+          <input id="sp" type="password" minlength="8" required>
+          <button type="submit">Create account</button>
+        </form>
+        <p class="switch">Already registered? <a href="#login">Sign in</a></p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
